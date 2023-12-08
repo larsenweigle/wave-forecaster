@@ -6,16 +6,16 @@ import matplotlib.pyplot as plt
 
 
 class WaveForecastMLP(nn.Module):
-    def __init__(self, input_dim):
+    def __init__(self, input_dim, dropout_rate):
         super(WaveForecastMLP, self).__init__()
         
         self.network = nn.Sequential(
-            nn.Linear(input_dim, 128),
+            nn.Linear(input_dim, 64),
             nn.ReLU(),
-            nn.Linear(128, 64),
-            nn.ReLU(),
+            nn.Dropout(dropout_rate),
             nn.Linear(64, 32),
             nn.ReLU(),
+            nn.Dropout(dropout_rate),
             nn.Linear(32, 1)
         )
 
