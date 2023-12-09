@@ -30,7 +30,7 @@ def build_dataloader_from_np(X, y, batch_size=64, shuffle=False):
         return DataLoader(dataset, batch_size, shuffle)
 
 
-def train(model, criterion, optimizer, train_loader, val_loader, n_epochs=100, print_every=10):
+def train(model, criterion, optimizer, train_loader, val_loader, n_epochs=100, print_every=10, plot_losses=False):
     train_losses = []
     val_losses = []
 
@@ -63,11 +63,12 @@ def train(model, criterion, optimizer, train_loader, val_loader, n_epochs=100, p
         if epoch == 1 or epoch % print_every == 0:
             print(f'Epoch: {epoch}/{n_epochs} - Train Loss: {avg_train_loss:.4f} - Val Loss: {avg_val_loss:.4f}')
 
-    plt.figure(figsize=(10,5))
-    plt.plot(train_losses, label='Training Loss', color='blue')
-    plt.plot(val_losses, label='Validation Loss', color='red')
-    plt.xlabel('Epoch')
-    plt.ylabel('Loss')
-    plt.title('Training and Validation Losses')
-    plt.legend()
-    plt.show()
+    if plot_losses:
+        plt.figure(figsize=(10,5))
+        plt.plot(train_losses, label='Training Loss', color='blue')
+        plt.plot(val_losses, label='Validation Loss', color='red')
+        plt.xlabel('Epoch')
+        plt.ylabel('Loss')
+        plt.title('Training and Validation Losses')
+        plt.legend()
+        plt.show()
