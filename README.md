@@ -22,12 +22,12 @@ For the final poster, we used the extra time to run inference on the test sets f
 
 ### XGBoost
 
-<img src="images/XGB_test.png" alt="Example Image" width="180"/>
+<img src="images/XGB_test.png" alt="Example Image" width="300"/>
 
 ### Multi-layer perceptron
 
-<img src="images/MLP_test.png" alt="Example Image" width="180"/>
+<img src="images/MLP_test.png" alt="Example Image" width="300"/>
 
 ### LSTM
 
-<img src="images/LSTM_test.png" alt="Example Image" width="180"/>
+<img src="images/LSTM_test.png" alt="Example Image" width="300"/>
