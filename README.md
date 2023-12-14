@@ -14,7 +14,7 @@ Lastly, raw data from the buoys can be found in our data folder. The text files 
 
 ## Poster Session Updates
 
-For the final poster, we used the extra time to run inference on the test sets for all four model types we experimented with. Here are the final results (which can also be found in the final poster linked below).
+For the final poster, we used the extra time to run inference on the test sets for all four model types we experimented with. Here are the final results (which can also be found in the final poster linked below). For the MLP results, we inverted the normalized outputs so we were able to directly compares MSE values to the other models.
 
 ### Linear Regression
 
