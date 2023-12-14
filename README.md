@@ -16,7 +16,7 @@ Lastly, raw data from the buoys can be found in our data folder. The text files 
 
 For the final poster, we used the extra time to run inference on the test sets for all four model types we experimented with. Here are the final results (which can also be found in the final poster linked below).
 
-$$$ Linear Regression
+### Linear Regression
 
 ![Example Image](images/LR_test.png)
 
