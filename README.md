@@ -28,6 +28,10 @@ For the final poster, we used the extra time to run inference on the test sets f
 
 <img src="images/MLP_test.png" alt="Example Image" width="300"/>
 
-### LSTM
+### Long Short-Term Memory
 
 <img src="images/LSTM_test.png" alt="Example Image" width="300"/>
+
+In our project, we tackled the challenging task of predicting wave heights from time series data. Initially, Linear Regression seemed to outperform more advanced models, but this was a result of it replicating the test set's distribution, known as lagging in time series analysis. After experimenting with longer forecast leads, this became evident. The LSTM algorithm, despite not achieving the lowest mean squared errors, proved most effective by capturing long-term data patterns without the lagging behavior, a strength not found in simpler models like Linear Regression or XGBoost. This underscored the importance of evaluating prediction results and understanding model behavior in time series forecasting, particularly the limitations of simpler models and the advantages of more complex ones like LSTM.
+
+Lastly, the project poster can be found [here](https://docs.google.com/presentation/d/1V_g--ssdOsm9H-OhZBR87X6y4vZb_E5mlUuJseP6grw/edit?usp=sharing).
