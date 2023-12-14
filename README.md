@@ -18,7 +18,7 @@ For the final poster, we used the extra time to run inference on the test sets f
 
 ### Linear Regression
 
-<img src="images/LR_test.png" alt="Example Image" width="400"/>
+<img src="images/LR_test.png" alt="Example Image" width="300"/>
 
 ### XGBoost
 
