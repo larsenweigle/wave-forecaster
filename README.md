@@ -18,17 +18,16 @@ For the final poster, we used the extra time to run inference on the test sets f
 
 ### Linear Regression
 
-![Example Image](images/LR_test.png)
+<img src="images/LR_test.png" alt="Example Image" width="200"/>
 
 ### XGBoost
 
-![Example Image](images/XGB_test.png)
+<img src="images/XGB_test.png" alt="Example Image" width="200"/>
 
 ### Multi-layer perceptron
 
-![Example Image](images/MLP_test.png)
+<img src="images/MLP_test.png" alt="Example Image" width="200"/>
 
 ### LSTM
 
-![Example Image](images/LSTM_test.png)
-
+<img src="images/LSTM_test.png" alt="Example Image" width="200"/>
