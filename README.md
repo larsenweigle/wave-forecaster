@@ -24,7 +24,7 @@ For the final poster, we used the extra time to run inference on the test sets f
 
 <img src="images/XGB_test.png" alt="Example Image" width="300"/>
 
-### Multi-layer perceptron
+### Multi-layer Perceptron
 
 <img src="images/MLP_test.png" alt="Example Image" width="300"/>
 
